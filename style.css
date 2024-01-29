@@ -3,6 +3,11 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 574px) {
+  h1, h2, h3, p {text-align: center;}
+  .navigation-links {margin-top: 10px;}
+  .projects {margin: 0;}
+}
 
 body {
   margin: 60px auto;
